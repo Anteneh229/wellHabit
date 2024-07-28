@@ -1,0 +1,5 @@
+# API URL for backend server
+VITE_API_URL=http://localhost:3000/api
+
+# SECRET_KEY=mysecretkey
+# DATABASE_URL=mongodb://localhost:27017
