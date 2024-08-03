@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import './styles.css';
 const Register = () => {
     const [form, setForm] = useState({
         username: '',
@@ -83,42 +84,15 @@ const Register = () => {
             {error && <p className="text-danger">{error}</p>}
             {step === 1 && (
                 <form onSubmit={handleSubmit}>
-                    <div className="form-group">
-                        <label htmlFor="username">Username</label>
-                        <input
-                            type="text"
-                            className="form-control"
-                            id="username"
-                            name="username"
-                            value={form.username}
-                            onChange={handleChange}
-                            required
-                        />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="email">Email</label>
-                        <input
-                            type="email"
-                            className="form-control"
-                            id="email"
-                            name="email"
-                            value={form.email}
-                            onChange={handleChange}
-                            required
-                        />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="password">Password</label>
-                        <input
-                            type="password"
-                            className="form-control"
-                            id="password"
-                            name="password"
-                            value={form.password}
-                            onChange={handleChange}
-                            required
-                        />
-                    </div>
+                    <div className="registerContainer container">
+      <h1 className="registerHeader">Register</h1>
+      <form>
+        <input className="registerInput" type="text" placeholder="Username" />
+        <input className="registerInput" type="email" placeholder="Email" />
+        <input className="registerInput" type="password" placeholder="Password" />
+        <button className="registerButton" type="submit">Register</button>
+      </form>
+    </div>
                     <button type="submit" className="btn btn-primary">Register</button>
                 </form>
             )}

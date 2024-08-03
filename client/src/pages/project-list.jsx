@@ -1,6 +1,7 @@
 import React,{useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+import './styles.css';
 const Projectlist = () => {
     const [projects, setProjects] = useState([]);
     const apiUrl = import.meta.env.VITE_API_URL || '/api';

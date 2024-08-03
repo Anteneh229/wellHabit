@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-
+ 
+import './styles.css';
 const ProjectDetails = () => {
     const [project, setProject] = useState({
         name: '',
@@ -100,6 +101,13 @@ const ProjectDetails = () => {
               required
             />
           </div>
+
+          <div className="projectDetailsContainer container">
+      <h1 className="projectDetailsHeader">Project Details</h1>
+      <p className="projectDetailsInfo">
+        More information about the project can be found here.
+      </p>
+    </div>
           <div className="form-group">
             <label htmlFor="description">Description</label>
             <textarea

@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    background-image: url('background.jpeg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+  
+  
+  .container {
+    padding: 20px;
+  }
+  
+  /* About Page */
+  .aboutContainer {
+    background-color: #f9f9f9;
+  }
+  
+  .aboutHeader {
+    font-size: 2em;
+  }
+  
+  .aboutContent {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  /* Contact Page */
+  .contactContainer {
+    background-color: #ffffff;
+  }
+  
+  .contactHeader {
+    font-size: 2em;
+  }
+  
+  .contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactInput {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .contactButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Home Page */
+  .homeContainer {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .homeHeader {
+    font-size: 2.5em;
+  }
+  
+  .homeIntro {
+    font-size: 1.2em;
+  }
+  
+  /* Login Page */
+  .loginContainer {
+    max-width: 400px;
+    margin: auto;
+    background-color: #f1f1f1;
+  }
+  
+  .loginHeader {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .loginInput {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .loginButton {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Project Detail Page */
+  .projectDetailContainer {
+    background-color: #ffffff;
+  }
+  
+  .projectDetailHeader {
+    font-size: 2em;
+  }
+  
+  .projectDetailContent {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Project Details Page */
+  .projectDetailsContainer {
+    background-color: #f4f4f4;
+  }
+  
+  .projectDetailsHeader {
+    font-size: 2em;
+  }
+  
+  .projectDetailsInfo {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  /* Register Page */
+  .registerContainer {
+    max-width: 500px;
+    margin: auto;
+    background-color: #e9ecef;
+  }
+  
+  .registerHeader {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .registerInput {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .registerButton {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Services Page */
+  .servicesContainer {
+    background-color: #ffffff;
+  }
+  
+  .servicesHeader {
+    font-size: 2em;
+  }
+  
+  .service {
+    margin-bottom: 20px;
+  }
+  
+  .serviceTitle {
+    font-size: 1.5em;
+  }
+  
+  .serviceDescription {
+    font-size: 1em;
+    color: #666;
+  }
+  
